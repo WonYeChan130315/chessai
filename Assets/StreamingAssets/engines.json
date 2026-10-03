@@ -1,0 +1,16 @@
+{
+  "engines": [
+    {"name": "chessai (내 엔진)", "path": "Engines/chessai", "options": [{"name": "Hash", "value": "64"}]},
+    {"name": "chessai 가지치기 끔", "path": "Engines/chessai", "options": [{"name": "Hash", "value": "64"}, {"name": "Pruning", "value": "false"}]},
+    {"name": "Stockfish 1320", "path": "/opt/homebrew/bin/stockfish", "options": [{"name": "UCI_LimitStrength", "value": "true"}, {"name": "UCI_Elo", "value": "1320"}]},
+    {"name": "Stockfish 1600", "path": "/opt/homebrew/bin/stockfish", "options": [{"name": "UCI_LimitStrength", "value": "true"}, {"name": "UCI_Elo", "value": "1600"}]},
+    {"name": "Stockfish 2000", "path": "/opt/homebrew/bin/stockfish", "options": [{"name": "UCI_LimitStrength", "value": "true"}, {"name": "UCI_Elo", "value": "2000"}]},
+    {"name": "Stockfish 2400", "path": "/opt/homebrew/bin/stockfish", "options": [{"name": "UCI_LimitStrength", "value": "true"}, {"name": "UCI_Elo", "value": "2400"}]},
+    {"name": "Stockfish 최강", "path": "/opt/homebrew/bin/stockfish", "options": []},
+    {"name": "Stash v17.0", "path": "/Users/won-yechan/chessai/opponents/stash-v17.0", "options": []},
+    {"name": "Stash v21.0", "path": "/Users/won-yechan/chessai/opponents/stash-v21.0", "options": []},
+    {"name": "Stash v25.0", "path": "/Users/won-yechan/chessai/opponents/stash-v25.0", "options": []},
+    {"name": "Stash v37.0", "path": "/Users/won-yechan/chessai/opponents/stash-v37.0", "options": []},
+    {"name": "Weiss", "path": "/Users/won-yechan/chessai/opponents/weiss", "options": []}
+  ]
+}

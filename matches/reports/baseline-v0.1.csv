@@ -1,0 +1,4 @@
+opponent,opponent_elo,games,wins,draws,losses,score,elo_diff,elo_lo,elo_hi
+sf-1600,1600,40,39,1,0,0.988,759,568,1600
+sf-2000,2000,40,37,0,3,0.925,436,292,1600
+sf-2400,2400,40,31,2,7,0.800,241,132,422

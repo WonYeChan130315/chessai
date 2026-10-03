@@ -1,0 +1,34 @@
+# Unity
+/Library/
+/Temp/
+/Logs/
+/obj/
+/UserSettings/
+Build
+Builds
+MemoryCaptures
+*.csproj
+*.slnx
+*.sln
+.vs
+.idea
+# C++ engine build output
+engine/build
+engine/build-*
+*.profraw
+*.profdata
+# Match outputs (raw PGN is large; reports are kept)
+matches/raw
+# Downloaded opponent sources and large data
+opponents/src
+data
+nnue/datasets
+syzygy
+# macOS
+.DS_Store
+~UnityDirMonSyncFile~*
+
+# Version control / editor
+.plastic/
+.vscode/
+__pycache__/

@@ -1,0 +1,16 @@
+[
+  {"name": "chessai", "cmd": ["engine/build/chessai"], "options": {"Hash": 64}},
+  {"name": "chessai-nopruning", "cmd": ["engine/build/chessai"], "options": {"Hash": 64, "Pruning": false}},
+  {"name": "sf-skill0", "cmd": ["/opt/homebrew/bin/stockfish"], "options": {"Hash": 64, "Threads": 1, "Skill Level": 0}},
+  {"name": "sf-1320", "cmd": ["/opt/homebrew/bin/stockfish"], "elo": 1320, "options": {"Hash": 64, "Threads": 1, "UCI_LimitStrength": true, "UCI_Elo": 1320}},
+  {"name": "sf-1600", "cmd": ["/opt/homebrew/bin/stockfish"], "elo": 1600, "options": {"Hash": 64, "Threads": 1, "UCI_LimitStrength": true, "UCI_Elo": 1600}},
+  {"name": "sf-2000", "cmd": ["/opt/homebrew/bin/stockfish"], "elo": 2000, "options": {"Hash": 64, "Threads": 1, "UCI_LimitStrength": true, "UCI_Elo": 2000}},
+  {"name": "sf-2400", "cmd": ["/opt/homebrew/bin/stockfish"], "elo": 2400, "options": {"Hash": 64, "Threads": 1, "UCI_LimitStrength": true, "UCI_Elo": 2400}},
+  {"name": "sf-2800", "cmd": ["/opt/homebrew/bin/stockfish"], "elo": 2800, "options": {"Hash": 64, "Threads": 1, "UCI_LimitStrength": true, "UCI_Elo": 2800}},
+  {"name": "sf-full", "cmd": ["/opt/homebrew/bin/stockfish"], "options": {"Hash": 64, "Threads": 1}},
+  {"name": "stash-v17.0", "cmd": ["opponents/stash-v17.0"], "options": {"Hash": 64, "Threads": 1}},
+  {"name": "stash-v21.0", "cmd": ["opponents/stash-v21.0"], "options": {"Hash": 64, "Threads": 1}},
+  {"name": "stash-v25.0", "cmd": ["opponents/stash-v25.0"], "options": {"Hash": 64, "Threads": 1}},
+  {"name": "stash-v37.0", "cmd": ["opponents/stash-v37.0"], "options": {"Hash": 64, "Threads": 1}},
+  {"name": "weiss", "cmd": ["opponents/weiss"], "options": {"Hash": 64, "Threads": 1}}
+]
